@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-# Make sure requests and untangle are installed.
-# pip3 install requests; pip3 install untangle
-
 import argparse
 import os.path
 import untangle
@@ -22,8 +19,6 @@ def downloaddb():
 			file.write(response.content)
 			print("[+] Complete!")
 			file.close()
-			exit()
-
 
 def cvenumber_search(cvenumber):
 	obj = untangle.parse(local_cve_db)

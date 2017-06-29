@@ -1,6 +1,7 @@
 # cvesearch
 Offline CVE Search utility.
 
+(Prereqs: pip3 install requests untangle)
 
 
 Usage:
@@ -13,7 +14,7 @@ Usage:
   
 ./cvesearch.py -c 2017-0199
 
-  Search by CVE number. Full text, so search CVE-2017-0199, 2017-0199, or 0199 to get results for that CVE.
+  Search by CVE number. Search any part of the CVE (CVE-2017-0199, 2017-0199, or 0199).
 
 ./cvesearch.py -s "Windows 2012 R2"
 
