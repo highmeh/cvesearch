@@ -15,9 +15,9 @@ Usage:
 
   Search by CVE number. Full text, so search CVE-2017-0199, 2017-0199, or 0199 to get results for that CVE.
 
-./cvesearch.py -s Windows 2012R2
+./cvesearch.py -s "Windows 2012 R2"
 
-  Search by keyword.
+  Search all CVE descriptions by keyword. Use quotations for multi-word search.
   
 ./cvesearch.py -d 
 
