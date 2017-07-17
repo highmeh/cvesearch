@@ -22,4 +22,4 @@ Usage:
   
 ./cvesearch.py -d 
 
-  Download CVE database to cve_db.xml. Internet connection required. Use this to force cve_db.xml updates, too.
+  Download or update CVE database to cve_db.xml. Internet connection required.
